@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <title>About Us - Hogwarts</title>
+    <style>
+        body {
+            margin: 0; /* Remove default body margin */
+            background-image: url('Hogwarts Images/hogwarts_cool.jpg'); /* Background image for entire page */
+            background-size: cover; /* Cover the entire page */
+            background-attachment: fixed; /* Keep the background fixed */
+            background-position: center; /* Center the background image */
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            min-height: 100vh; /* Ensure minimum height */
+        }
+        nav {
+            z-index: 1; /* Ensure navigation is above background */
+        }
+        .header {
+            background-color: rgba(255, 250, 250, 0.8); /* Semi-transparent white */
+            width: 80%; /* Set width to prevent stretching */
+            margin: auto; /* Center the header */
+            height: auto; /* Allow height to adjust */
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center content horizontally */
+            justify-content: center; /* Center content vertically */
+            color: #000; /* Text color */
+            text-align: center; /* Center text */
+            padding: 20px; /* Padding for spacing */
+            border-radius: 20px; /* Rounded corners */
+            box-shadow: none; /* Remove shadow */
+            margin-bottom: 20px; /* Space below the header */
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+            padding: 20px;
+            border-radius: 10px; /* Optional: to round the corners */
+            position: relative; /* Position relative to stack above background */
+            z-index: 2; /* Ensure content is above the background */
+            margin: 20px; /* Add margin to separate from edges */
+            flex: 1; /* Allow the content area to grow */
+            overflow-y: auto; /* Allow scrolling if content exceeds */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="hogwarts.html">Hogwarts School</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hogwarts.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about_us_hogwarts.html">About Us</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="header">
+        <h1>About Us</h1>
+        <p>Discover the School of Witchcraft and Wizardry</p>
+    </div>
+    
+    <div class="container content">
+        <h2>About Us</h2>
+        <p class="large-text">Hello! My name is Akshobhya Gupta, the current headmaster of Hogwarts. I created this website for Muggle Potterheads around the world to explore the enchanting world of Hogwarts virtually! Here, you can learn about our history, rules, and all things magical.</p>
+        <p class="large-text">Join us on this journey through the halls of Hogwarts, where every corner holds a story and every lesson teaches a new spell. Welcome to a place where imagination knows no bounds!</p>
+        
+        <p class="large-text">Founded over a thousand years ago, Hogwarts School of Witchcraft and Wizardry is one of the most prestigious magical institutions in the world. With its grand architecture and mystical grounds, Hogwarts has been home to countless witches and wizards who have gone on to achieve greatness. Our mission is to provide a safe and nurturing environment for all students, educating them in the art of magic while promoting values of respect, kindness, and creativity.</p>
+        
+        <p class="large-text">Every student at Hogwarts is sorted into one of four houses: Gryffindor, Hufflepuff, Ravenclaw, or Slytherin. This experience fosters a sense of belonging and community, encouraging students to build lasting friendships. From thrilling Quidditch matches to enchanting lessons in Potions and Defense Against the Dark Arts, every day at Hogwarts is filled with adventure and learning.</p>
+        
+        <p class="large-text">We invite you to become part of our magical community! Whether you’re a current student, an alumnus, or simply a fan of the Wizarding World, there are numerous ways to engage with us. Join our events, participate in forums, or explore our website for more information about the magical education we offer. If you have any questions or would like to learn more, please don’t hesitate to reach out. We’re here to help you on your magical journey!</p>
+    </div>
+</body>
+</html>
